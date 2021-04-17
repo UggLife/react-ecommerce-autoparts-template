@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 
 const styles = {
   activeMenuLink: {
-    background: 'rgba (62, 161, 117, 0.3)',
-    color: '#3ea175',
+    background: 'rgb(196, 103, 214)',
+    color: 'rgb(196, 103, 214)',
   },
 };
 

@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import Nav from '../Nav/Nav';
 import Logo from '../../yardhop-logo.png';
 import './Header.css';
-import * as types from '../../redux/actions/actionTypes';
 
 const Header = () => {
   const user = useSelector((state) => state.auth.user);
@@ -17,7 +16,7 @@ const Header = () => {
 
       <div className="logo">
         <Link to="/">
-          <img src={Logo} alt="" />
+          <img style={{ height: '100px' }} src={Logo} alt="" />
         </Link>
       </div>
 

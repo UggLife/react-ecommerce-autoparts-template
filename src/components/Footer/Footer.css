@@ -1,12 +1,12 @@
 .footer {
-  background-color: #182628;
-  margin-top: 20px;
+  background-color: #f7fbfc;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
   color: #f8f8f8;
+  box-shadow: 0 4px 2px -2px gray;
 }
 
 .footer__top {
@@ -30,7 +30,7 @@
 }
 
 .footer__section > h4 {
-  color: #57ba98;
+  color: purple;
 }
 
 .footer__section > p {
@@ -39,7 +39,7 @@
   }
 
 .footer__link {
-  color: #5ea7ff;
+  color: purple;
 }
 
 .footer__icons{
@@ -51,7 +51,7 @@
 }
 
 .footer__section > a {
-  color: #f8f8f8;
+  color: purple;
   text-decoration: none;
   margin-bottom: 5px;
   font-size: 80%;
@@ -70,7 +70,7 @@ a:hover {
   font-size: 24px;
 }
 .footer__copyright {
-  color: white;
+  color: purple;
   font-size: 80%;
   margin-top: 20px;
   align-self: center;

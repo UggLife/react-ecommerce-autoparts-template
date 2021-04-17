@@ -58,7 +58,7 @@ const Nav = () => {
           <div className="nav__logout">
             <p className="nav__loggedInMsg">{`Hello, ${user?.firstName || user.companyName}!`}</p>
             <Link style={navStyle} to="/">
-              <Button id="nav__logOutButton" type="button" variant="contained" onClick={(e) => logOutButton(e)}>Logout</Button>
+              <Button style={{ backgroundColor: 'purple', color: 'white' }} id="nav__logOutButton" type="button" variant="contained" onClick={(e) => logOutButton(e)}>Logout</Button>
             </Link>
           </div>
         ) : (
@@ -76,7 +76,7 @@ const Nav = () => {
           {userRole === 'CUSTOMER' ? (
             <>
               <Link to="/cart">
-                <ShoppingCartIcon style={{ fill: '#f8f8f8' }} />
+                <ShoppingCartIcon style={{ color: 'purple' }} />
               </Link>
               <span className="nav__basketCount">{cart?.length}</span>
             </>

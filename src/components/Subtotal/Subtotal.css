@@ -16,7 +16,16 @@
 }
 
 .subtotal > button {
-  background: #3b945e;
+  background: #833a96;
+  color: white;
+  border-radius: 5px;
+  height: 30px;
+  width: 100%;
+  outline: none;
+}
+
+.subtotal a button{
+  background: #833a96;
   color: white;
   border-radius: 5px;
   height: 30px;

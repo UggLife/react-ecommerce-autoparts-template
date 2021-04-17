@@ -11,7 +11,7 @@ const Footer = () => (
       <div className="footer__section">
         <h4>CONTACT</h4>
         <div className="footer__section__text">
-          <p className="footer__link">contact@yardhop.com</p>
+          <p className="footer__link">contact@junkdrop.com</p>
           <p className="footer__link"> +1 (800) 999-9999</p>
         </div>
       </div>
@@ -24,7 +24,7 @@ const Footer = () => (
       <YouTubeIcon />
     </div>
 
-    <p className="footer__copyright">Copyright &copy; 2021 YardHop Inc. All Rights Reserved.</p>
+    <p className="footer__copyright">Copyright &copy; 2021 JunkDrop Inc. All Rights Reserved.</p>
 
   </div>
 );

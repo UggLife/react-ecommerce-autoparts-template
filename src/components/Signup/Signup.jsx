@@ -73,8 +73,8 @@ const Signup = () => {
             <FormControl component="fieldset">
               <FormLabel component="legend">User role: </FormLabel>
               <RadioGroup row value={userRole} onChange={(e, value) => changeUserRole(value)}>
-                <FormControlLabel value="CUSTOMER" control={<Radio color="primary" />} label="Customer" />
-                <FormControlLabel value="OWNER" control={<Radio color="primary" />} label="Owner" />
+                <FormControlLabel style={{ color: 'white' }} value="CUSTOMER" control={<Radio color="primary" />} label="Customer" />
+                <FormControlLabel style={{ color: 'white' }} value="OWNER" control={<Radio color="primary" />} label="Owner" />
               </RadioGroup>
             </FormControl>
 
@@ -110,7 +110,7 @@ const Signup = () => {
 
           <div className="signup__login">
             <p>Already have an account?</p>
-            <Link to="/login">
+            <Link style={{ color: 'white' }} to="/login">
               Log In
             </Link>
           </div>
