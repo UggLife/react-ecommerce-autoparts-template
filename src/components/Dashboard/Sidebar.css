@@ -1,5 +1,5 @@
 #sidebar {
-  background: #d8d8d8;
+  background: #f7fbfc;
   padding: 20px;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -32,7 +32,7 @@
 }
 
 .sidebar__menu > h2 {
-  color: #3ea175;
+  color: #8a3ea1;
   font-size: 16px;
   margin-top: 15px;
   margin-bottom: 5px;
@@ -52,12 +52,12 @@
 }
 
 .active_menu_link {
-  background: rgba(62, 161, 117, 0.3);
-  color: #3ea175;
+  background: #f3f4f6;
+  color: #8a3ea1;
 }
 
 .active_menu_link a {
-  color: #3ea175 !important;
+  color: #8a3ea1 !important;
 }
 
 .sidebar__link > a {

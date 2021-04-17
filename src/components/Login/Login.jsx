@@ -54,7 +54,7 @@ const Login = () => {
           </form>
           <div className="login__createAccount">
             <p>Don&apos;t have an account?</p>
-            <Link to="/signup">
+            <Link style={{ color: 'white' }} to="/signup">
               Sign Up
             </Link>
           </div>

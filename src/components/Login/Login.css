@@ -4,7 +4,7 @@
     width: 100%;
     min-width: 800px;
     height: 100vh;
-    background-color: #182628;
+    background-color: #f7fbfc;
 }
 
 .login {
@@ -39,9 +39,9 @@
     display: flex;
     flex-direction: column;
     border-radius: 3px;
-    border: 2px solid #6ce8bd;
+    border: 2px solid #833a96;
     padding: 20px;
-    background-color: #64d2ab;
+    background-color: #833a96;
 }
 
 .login__container > h1 {

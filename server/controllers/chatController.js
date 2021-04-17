@@ -62,7 +62,7 @@ async function formatChatList(req, res, next) {
       sender: chatEntry.sender,
       chatLink: `chat.supplier-${chatEntry.chatSessionID}`,
       customerName: `${chatEntry.customer.firstName} ${chatEntry.customer.lastName}`,
-      customerPhone: chatEntry.customer?.phone || 'N/A',
+      customerPhone: chatEntry.customer.phone || 'N/A',
       customerEmail: chatEntry.customer.email,
     };
     if (messagesObj[newChat.chatSessionID]) {
